@@ -35,6 +35,7 @@ plugins:
         - Documentation
 
   - tags:
+      tags_file: tags.md
 
   - rss:
       match_path: posts/.* 
