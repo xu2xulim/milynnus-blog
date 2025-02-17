@@ -30,7 +30,6 @@ plugins:
       post_url_format: "{categories}/{slug}"
       post_url_max_categories: 2
       categories_allowed:
-        - Life
         - Articles
         - Documentation
 
