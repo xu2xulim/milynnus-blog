@@ -10,7 +10,10 @@ categories:
 authors:
     - sunny
 ---
-#**Blogs**
+
+#**Blog**
 
 <!-- More -->
-Welcome
+Welcome **milynnus Blog**.
+
+This site is built using [Material for Mkdocs]([https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/ "smartCard-inline") ). This contains a curated subset of the the posts in [Blog-doc](https://blog-doc-ngaw.onrender.com/ "‌") .
