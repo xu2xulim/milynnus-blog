@@ -53,7 +53,7 @@ extra:
   social:
     - icon: simple/youtube
       link: https://youtube.com/@earlymorningsun
-    - icon: simple/linkedin
+    - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/sunny-lim-95406988/
 
 copyright: Copyright &copy; 2024 Sunny Lim
