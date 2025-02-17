@@ -1,6 +1,5 @@
 ---
-date:
-    created: 2024-09-01 08:00:00
+date: 2024-09-01 08:00:00
 draft: false
 readtime: 5
 tags:
