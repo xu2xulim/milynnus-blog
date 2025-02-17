@@ -1,6 +1,6 @@
 site_name: milynnus Consulting Blog
 site_description: A blog site built with Materials for Mkdocs
-site_url: https://someexampe.example
+site_url: https://milynnus-blog.com
 theme:
   name: material
   features:
