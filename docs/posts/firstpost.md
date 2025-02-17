@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2024-12-29
+    created: 12-29-2024
 draft: false
 readtime: 5
 tags:
