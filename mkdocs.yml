@@ -35,6 +35,14 @@ plugins:
         - Documentation
   - tags:
 
+  - rss:
+      match_path: posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+
   - git-committers:
       repository: xu2xulim/milynnus-blog
       branch: main
