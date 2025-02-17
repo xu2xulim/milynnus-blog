@@ -26,13 +26,16 @@ plugins:
   - blog:
       blog_dir: .
       authors_profiles: true
-      archive_date_format: MM yyyy
+      authors_profiles_url_format: "author/{slug}"
+      archive_date_format: yyyy
+      archive_url_format: "archive/{date}"
       post_url_format: "{categories}/{slug}"
       post_url_max_categories: 2
       categories_allowed:
         - Life
         - Articles
         - Documentation
+
   - tags:
 
   - rss:
