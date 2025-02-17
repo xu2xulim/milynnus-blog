@@ -24,7 +24,7 @@ theme:
 plugins:
   - search
   - blog:
-      blog_dir: ./docs
+      blog_dir: .
       authors_profiles: true
       archive_date_format: MM yyyy
       post_url_format: "{categories}/{slug}"
