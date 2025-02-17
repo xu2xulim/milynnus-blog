@@ -1,0 +1,50 @@
+site_name: milynnus Consulting Blog
+site_description: A blog site built with Materials for Mkdocs
+site_url: https://sitename.example
+theme:
+  name: material
+  features:
+    - navigation.footerç
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        name: Switch to system preference
+
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+      archive_date_format: MM yyyy
+      post_url_format: "{categories}/{slug}"
+      post_url_max_categories: 2
+      categories_allowed:
+        - Life
+        - Articles
+        - Documentation
+  - tags:
+
+  - rss:
+      match_path: "/posts/.*"
+      pretty_print: true
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
+
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon 
+      link: https://fosstodon.org/@squidfunk
+
+
+
+
