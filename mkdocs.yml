@@ -46,12 +46,6 @@ plugins:
       repository: xu2xulim/milynnus-blog
       branch: main
 
-extra:
-  social:
-    - icon: simple/youtube
-      link: https://youtube.com/@earlymorningsun
-    - icon: simple/linkedin
-      link: https://linkedin.com/in/sunny-lim-95406988
 
 copyright: Copyright &copy; 2024 James Willett
 
