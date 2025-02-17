@@ -1,7 +1,6 @@
 ---
 date:
     created: 2024-12-29
-    updated: 2025-02-01
 tags:
     - trello
     - project management
