@@ -1,6 +1,6 @@
 site_name: milynnus Consulting Blog
 site_description: A blog site built with Materials for Mkdocs
-site_url: https://xu2xulim.github.io/milynnus-blog/index.html
+site_url: https://xu2xulim.github.io/milynnus-blog/
 theme:
   name: material
   features:
@@ -20,7 +20,10 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
         name: Switch to system preference
-
+nav:
+  - index.md
+  - Blog:
+    - blog/index.md
 plugins:
   - search
   - blog:
