@@ -8,6 +8,8 @@ tags:
 published: true
 categories:
     - Articles
+authors:
+    - sunny
 ---
 #**From idea to design - a software product development example**
 
