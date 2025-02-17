@@ -1,6 +1,6 @@
 site_name: milynnus Consulting Blog
 site_description: A blog site built with Materials for Mkdocs
-site_url: https://xu2xulim.github.io/milynnus-blog/
+site_url: https://xu2xulim.github.io/milynnus-blog/index.html
 theme:
   name: material
   features:
