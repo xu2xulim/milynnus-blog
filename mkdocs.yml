@@ -25,8 +25,6 @@ plugins:
   - search
   - blog:
       blog_dir: .
-      authors_profiles: true
-      authors_profiles_url_format: "author/{slug}"
       archive_date_format: yyyy
       archive_url_format: "archive/{date}"
       post_url_format: "{categories}/{slug}"
