@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install mkdocs and any other dependencies
-RUN pip install --no-cache-dir mkdocs-material
+RUN pip install --no-cache-dir mkdocs-material mkdocs-rss-plugin
 
 # Build the mkdocs site
 RUN mkdocs build
