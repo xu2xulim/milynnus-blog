@@ -12,6 +12,7 @@ RUN pip install --no-cache-dir mkdocs-material mkdocs-git-committers-plugin-2
 
 # Build the mkdocs site
 RUN mkdocs build
+RUN mkdocs blog-pages --force
 
 # Use nginx to serve the static files
 FROM nginx:alpine
