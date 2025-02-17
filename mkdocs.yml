@@ -5,6 +5,7 @@ theme:
   name: material
   features:
     - navigation.footerç
+  custom_dir: overrides
   palette: 
 
     # Palette toggle for light mode
@@ -39,6 +40,10 @@ plugins:
       date_from_meta:
         as_creation: date.created
         as_update: date.updated
+
+  - git-committers:
+      repository: xu2xulim/milynnus-blog
+      branch: main
 
 extra:
   social:
