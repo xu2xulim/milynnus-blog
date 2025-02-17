@@ -4,7 +4,7 @@ site_url: https://sitename.example
 theme:
   name: material
   features:
-    - navigation.footerç
+    - navigation.footer
   custom_dir: overrides
   palette: 
 
