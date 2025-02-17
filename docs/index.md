@@ -1,7 +1,6 @@
 ---
 title: Coordinate used car sales, refurnishing and repairs
-date:
-    created: 2025-06-29
+date: 2024-09-01 08:00:00
 description: A custom Trello design to coordinate sales with various departments in a Used Car Sales company
 featuredImage: /static/images/archive-and-tags.webp
 tags: 
