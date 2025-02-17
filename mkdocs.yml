@@ -20,11 +20,12 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
         name: Switch to system preference
-        
+
 plugins:
   - search
   - blog:
-      blog_dir: .
+      blog_dir: ./docs
+      authors_profiles: true
       archive_date_format: MM yyyy
       post_url_format: "{categories}/{slug}"
       post_url_max_categories: 2
