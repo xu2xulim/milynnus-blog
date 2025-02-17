@@ -8,9 +8,6 @@ published: true
 categories:
     - Life
     - Articles
-description: A custom Trello design to coordinate sales with various departments in a Used Car Sales companyx
-featuredImage: /static/images/archive-and-tags.webp
-title: Coordinate used car sales, refurnishing and repairs
 ---
 A custom Trello design to coordinate sales with various departments in a Used Car Sales company
 <!-- More -->

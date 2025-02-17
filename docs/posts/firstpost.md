@@ -14,9 +14,6 @@ tags:
 published: true
 categories:
     - Articles
-title: Connect with your OpenAI Assistant
-description: A FastAPI OpenAI Assistant micro that connects with Telegram, Streamlit, Trello, and more
-featuredImage: /static/images/templates.avif
 ---
 A FastAPI OpenAI Assistant micro that connects with Telegram, Streamlit, Trello, and more
 ![Assistant\_conversation\_in\_thread\_is\_strictly\_private.png](https://trello.com/1/cards/6661842986eb2b6c682107cd/attachments/6678bef969a12807eb6fb2a3/download/Assistant_conversation_in_thread_is_strictly_private.png)
