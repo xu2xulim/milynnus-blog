@@ -35,7 +35,7 @@ Scrum emphasizes inspection, adaptation, and collaboration to deliver valuable i
 
 > Trello’s collaborative features easily supports this especially with use of power ups and integration to other software, if so required. The ability to breakdown work via maintaining the dependencies facilitate delivery of business value with each increment of work.
 
-(Pre-reading : [From idea to design - a software product development example](https://newblogdoc-1-l0174261.deta.app/posts/from-idea-to-design-a-software-product-development-example/ "‌") )
+(Pre-reading : [From idea to design - a software product development example](https://milynnus-blog.onrender.com/#from-idea-to-design-a-software-product-development-example) )
 
 ## Discussion - Sprint
 

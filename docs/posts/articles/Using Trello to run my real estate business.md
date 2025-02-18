@@ -19,7 +19,7 @@ Sam (not his real name) runs a successful real estate business with his team of 
 
 Despite having everything meticulously planned, Sam's main frustration is that he spends more time each day figuring out the statuses and making changes on the Trello board than on actual sales.
 
-Based on design ideas from  [From idea to design - a software product development example](https://blog-doc-ngaw.onrender.com/posts/from-idea-to-design-a-software-product-development-example/) and [Scrum and Sprint](https://blog-doc-ngaw.onrender.com/posts/scrum-and-sprint/), the following system was created: :
+Based on design ideas from  [From idea to design - a software product development example](https://milynnus-blog.onrender.com/#from-idea-to-design-a-software-product-development-example) and [Scrum and Sprint](https://milynnus-blog.onrender.com/#scrum-and-sprint), the following system was created: :
 
 ##### Real Estate Sales Daily board
 
