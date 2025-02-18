@@ -18,7 +18,7 @@ Elevating the visibility of work from sales to production
 
 <!-- more -->
 
-Ace Inc. (not the real name of the company) is a US company providing integrated packaging solutions. They had been using their home-grown Visual Basic ERP for several years. The ERP system is used to create projects and assign tasks to four departments within Ace: Design, Estimating, PrePress, and Thermoform. This process had been working well for them, and their business has been growing rapidly. It has come to a crunch, and the CEO felt that he needed more visibility into the projects and the status of work in the four departments. After some research, they decided to use Trello and its Card Mirror feature to ensure seamless overall management of their work processes for project management leading to production.
+Ace Inc. (not the real name of the company) is a US company providing integrated packaging solutions. They had been using their home-grown Visual Basic ERP for several years. The ERP system is used to create projects and assign tasks to four departments within Ace: Concept Design, Material Procurement, Prototype Development and Quality Assurance. This process had been working well for them, and their business has been growing rapidly. It has come to a crunch, and the CEO felt that he needed more visibility into the projects and the status of work in the four departments. After some research, they decided to use Trello and its Card Mirror feature to ensure seamless overall management of their work processes for project management leading to production.
 
 ## Mirror Card
 

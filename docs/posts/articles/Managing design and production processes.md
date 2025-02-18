@@ -13,7 +13,7 @@ authors:
 - sunny
 ---
 
-\#**Managing design and production processes**
+#**Managing design and production processes**
 
 Use Trello to manage the design and production processes for a interior renovation firm.
 
