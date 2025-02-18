@@ -1,0 +1,95 @@
+---
+
+date: 2025-02-14 08:00:00
+draft: false
+readtime: 5
+tags:
+- project management
+
+- trello
+published: true
+categories:
+- Articles
+authors:
+- sunny
+
+---
+
+# **Bringing ERP to life - a Mirror card story**
+
+Elevating the visibility of work from sales to production
+![Mirror\_-\_Master\_Board.png](https://trello.com/1/cards/67b3e4cc97c304a9b764f290/attachments/67b3e4ea01aa5310ba0d9c39/download/Mirror_-_Master_Board.png)
+
+<!-- More -->
+
+Ace Inc. (not the real name of the company) is US company providing  integrated packaging solutions. They had been using their home-grown Visual Basic ERP for several years now. The ERP system is used to create projects and assigning tasks to 4 departments within Ace for Design, Estimating, PrePress and Thermoform. This process had been working well for them and business has been growing rapidly. It has come to a crunch and the CEO felt that he needed more visibility into the projects and the status of work in the 4 departments. After some research, they decided on using Trello and its Card Mirror feature to ensure seamless overall management of its work processes for project management leading to production.
+
+## Mirror Card
+
+Trello Mirror card feature is a relatively new feature release only in xxx, 2024. It allows for updates visible on ‘mirrored’ cards across the workspace. This is ideal for sharing instant updates and keeping the team on the same page on the statuses. However, ‘mirrored’ cards are not regular Trello cards and incorporating it the workplace with Trello requires new board design considerations.
+
+Ace requires mirrored cards to be created in all 4 departments and 4 more on the Master board as well each representing the status of assigned work at the departments.
+
+## Project, Mirror and Sprint
+
+![Mirror\_-\_Master\_Board.png](https://trello.com/1/cards/67b3e4cc97c304a9b764f290/attachments/67b3e4ea01aa5310ba0d9c39/download/Mirror_-_Master_Board.png)
+
+### Project Card
+
+The Project card sits on the master board. It is the placeholder for all project and tasks from the ERP system. It holds the assigned task at time of creating and it provides links to the Sprint cards at the departments.
+
+As work is completed at the department this is also shown on the project card and mirrored across the workspace.
+
+Labels are used to highlight the assigned work at the departments and removed when work is completed.
+
+### Project Mirrored Card
+
+As the name suggests, it is a mirrored version of the Project card. As a mirror card, it allows users to watch the card as well as navigate to the project card easily with having to use `cardlink` . The mirroring process is totally transparent to the Trello board users.
+
+### Sprint Card
+
+The Sprint card is a regular card created when the project is created or upon receipt of new instructions from the ERP system. It contains only the work items specific to the department. It allows for assignment of card members which will move the card to the list corresponding the the member’s name. As work items (aka checklist items) are completed, the statuses are updated on the Project card including when it is moved to the “Done” list which will trigger the remove of the department label from the Project card.
+
+## ERP - Trello Integration
+
+Because of Ace’s unique business requirements, it was ascertain very early in the prototyping stages that Zapier will not be able to handle their requirements inexpensively. Ace, made the decision use a micro to handle the integration as well as other automation requirements.
+
+### Project Created
+
+The instructions come from the ERP system to create the project card, laying out the foundation, via invisible labels and empty checklists, to trigger Trello automation to create and link department Sprint cards.
+
+The checklist by department are containers to receive any tasks coming from the ERP system or native Trello automation such as the “Special Instruction” automation.
+
+The instruction includes the creation of links as attachments on the Project and Sprint cards. These Office 365 links for SharePoint and OneNote specific to the project.
+
+![ERP\_to\_Trello.png](https://trello.com/1/cards/67b3e4cc97c304a9b764f290/attachments/67b3e4ea518463aad7029c00/download/ERP_to_Trello.png)
+
+When a Sprint card is created, a http request is used to send the project id, project card and sprint card urls to the ERP via Zapier.
+
+### Add Items
+
+The instructions come from the ERP system to create tasks as checklist items with due dates on the Project card as well as the department Sprint card.
+
+This feature is also used to receive Special Instruction request to create items on the checklist.
+
+## Automation
+
+This section highlights some of the unique automation created in support of Ace unique business requirements. A FastAPI micro provides the services for the following:
+
+### Add attachments
+
+Trello automation does not support the copying links (attachments) from one card to another. This feature is made possible using Trello api.
+
+### Due Date
+
+Trello automation does not support the assigning due date to checklist item (other than to use a date custom field) and to reflect the latest due dates from a checklist as the Due Date for the Sprint card.
+
+### Special Instructions
+
+This is a Trello automation triggered on the Sprint card that calls the “Add Items” integration endpoint allowing new items to be added to both the Project and the Sprint cards.
+
+Special instructions can be use to facilitate work that arise from unique conditions such as rework, defects, new requirements, change request, etc.
+
+## DashCard
+
+Trello Dashcard is used track key performance indicators across the boards. This is made possible via naming conventions for boards, labels, due dates, member assignment, …etc implemented, largely via automation. It enhances the visibility of work performance, via the _**Watch Towers**_ across the enterprise.
