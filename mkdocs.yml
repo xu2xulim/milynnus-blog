@@ -1,10 +1,12 @@
-site_name: milynnus Consulting Blog
+site_name: milynnus Blog
 site_description: A blog site built with Materials for Mkdocs
 site_url: https://xu2xulim.github.io/milynnus-blog/
 theme:
   name: material
   features:
     - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
   custom_dir: overrides
   palette: 
 
@@ -25,6 +27,7 @@ plugins:
   - search
   - blog:
       blog_dir: .
+      blog_toc: true
       archive_date_format: yyyy
       archive_url_format: "archive/{date}"
       post_url_format: "{categories}/{slug}"
