@@ -13,7 +13,7 @@ authors:
 ---
 #**From idea to design - a software product development example**
 
-<!-- More -->
+<!-- more -->
 ‌
 
 There is a useful document from Trello "Creating and managing task dependencies" wil teach you how to use Trello automation to create and manage task dependencies. It is a place to start on your journey to be Trello automation expert. You will see that the adaptation of the design principles and how these are put together in this case study to be quite different. It only serves to illustrate that client requirements can be very unique and sufficient time should be allocated to work on understanding the requirements before attempting to create a design,

@@ -1,16 +1,15 @@
 ---
-
 date: 2024-07-06 08:00:00
 draft: false
 readtime: 5
 tags:
-- project management
+    - trello
+    - project management
 published: true
 categories:
-- Articles
+    - Articles
 authors:
-- sunny
-
+    - sunny
 ---
 
 #**Scrum and Sprint**
@@ -19,7 +18,7 @@ A point view on use of Trello in Agile Project Management
 
 ![Screenshot\_2024-07-05\_at\_9.20.09\_AM.png](https://trello.com/1/cards/668741b25b9c528d70efde8f/attachments/66874a7dd2c42081ca2e185d/download/Screenshot_2024-07-05_at_9.20.09_AM.png)
 
-<!-- More -->
+<!-- more -->
 
 ## Introduction - Scrum
 

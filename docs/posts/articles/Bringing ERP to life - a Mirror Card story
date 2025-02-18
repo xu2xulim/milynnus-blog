@@ -3,20 +3,20 @@ date: 2025-02-14 08:00:00
 draft: false
 readtime: 5
 tags:
-- project management
-- trello
+    - project management
+    - trello
 published: true
 categories:
-- Articles
+    - Articles
 authors:
-- sunny
+    - sunny
 ---
 #**Bringing ERP to life - a Mirror card story**
 
 Elevating the visibility of work from sales to production
 ![Mirror\_-\_Master\_Board.png](https://trello.com/1/cards/67b3e4cc97c304a9b764f290/attachments/67b3e4ea01aa5310ba0d9c39/download/Mirror_-_Master_Board.png)
 
-<!-- More -->
+<!-- more -->
 
 Ace Inc. (not the real name of the company) is US company providing  integrated packaging solutions. They had been using their home-grown Visual Basic ERP for several years now. The ERP system is used to create projects and assigning tasks to 4 departments within Ace for Design, Estimating, PrePress and Thermoform. This process had been working well for them and business has been growing rapidly. It has come to a crunch and the CEO felt that he needed more visibility into the projects and the status of work in the 4 departments. After some research, they decided on using Trello and its Card Mirror feature to ensure seamless overall management of its work processes for project management leading to production.
 

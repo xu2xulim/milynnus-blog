@@ -28,6 +28,7 @@ plugins:
   - blog:
       blog_dir: .
       blog_toc: true
+      post_excerpt_separator: <!-- more -->
       archive_date_format: yyyy
       archive_url_format: "archive/{date}"
       post_url_format: "{categories}/{slug}"
