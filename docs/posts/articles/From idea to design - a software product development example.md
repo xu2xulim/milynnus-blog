@@ -12,13 +12,11 @@ authors:
     - sunny
 ---
 #**From idea to design - a software product development example**
+![Screenshot\_2024-07-02\_at\_10.39.01\_AM.png](https://trello.com/1/cards/6683688ba754dae6073fde32/attachments/668368a8c464b0739bb7347c/download/Screenshot_2024-07-02_at_10.39.01_AM.png)
 
 <!-- more -->
 ‌
-
 There is a useful document from Trello "Creating and managing task dependencies" wil teach you how to use Trello automation to create and manage task dependencies. It is a place to start on your journey to be Trello automation expert. You will see that the adaptation of the design principles and how these are put together in this case study to be quite different. It only serves to illustrate that client requirements can be very unique and sufficient time should be allocated to work on understanding the requirements before attempting to create a design,
-
-![Screenshot\_2024-07-02\_at\_10.39.01\_AM.png](https://trello.com/1/cards/6683688ba754dae6073fde32/attachments/668368a8c464b0739bb7347c/download/Screenshot_2024-07-02_at_10.39.01_AM.png)
 
 How do you take an idea like a software product development cycle
 
