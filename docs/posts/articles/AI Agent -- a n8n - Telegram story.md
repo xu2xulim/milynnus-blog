@@ -50,6 +50,12 @@ asking the agent to use information from another contact like
 
 and more.
 
-One of the **major challenge** was to create a file in JobNimbus. While Telegram chat will accept photos and documents, these message types does not allow you to provide enough information, at the same time, to for use with JobNimbus API. A way has been found to have the Agent create the payload to be included as caption when uploading a document or photo. The payload will uniquely identify the job or contact, the file type and subtype, filename and description (AI Generated), timestamp…etc. The file data is fetch by Telegram and included as part of the payload and JobNimbus API will perform the actual creation of the document or photo.
+One of the **major challenge** was to create a file in JobNimbus. While Telegram chat will accept photos and documents, these message types do not allow you to provide enough information, at the same time, required by JobNimbus API.
+
+A way has been found to have the Agent create the payload to be included as caption when uploading a document or photo. The payload will uniquely identify the job or contact, the file type and subtype, filename and description (AI Generated), timestamp…etc. The file data is fetched by Telegram via a get file and sent to n8n with the payload as the caption. JobNimbus API will perform the actual creation of the document or photo.
+
+The above requires some degree of user intervention. The alternative approach is to maintain the metadata of the upload Telegram photo or document in some database. The payload and file details are then fed into an webhook to create the file in JobNimbus. While this appropriate does not require manual copy and paste action, it does create a maintenance requirement of Telegram files and the metadata database. Furthermore, the number of files need to be managed. It is helpful that the database used allows for queries to be implemented e.g.
+
+`{"query" : {"where" : {"tmeId" :  {{ $('Telegram Trigger').item.json.message.chat.id }}, "description" : { $like: "%{{...search word}}%" } }}}`
 
 While the above is sufficient as a MVP, work in currently on-going to find a better solution.
