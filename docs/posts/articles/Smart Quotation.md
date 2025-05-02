@@ -13,7 +13,7 @@ authors:
     - sunny
 ---
 
-\#Smart Quotation Payment Intake Using Trello
+#**Smart Quotation Payment Intake Using Trello**
 
 Smart quotation scenario using [Make.com](http://Make.com "‌") to send a AI generated quotation with Stripe checkout for deposit payment via Trello automation
 
