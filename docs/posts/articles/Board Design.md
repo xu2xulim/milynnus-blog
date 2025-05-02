@@ -12,7 +12,7 @@ authors:
     - sunny
 ---
 
-#Board Design featuring curated set of capabilities
+#**Board Design featuring curated set of capabilities**
 
 This board design features a set of curated capabilities drawn from work with clients.
 ![Master\_Board.png](https://trello.com/1/cards/681429bc6ba7eefddd7f2ed9/attachments/6814778a2890e851226ffdb3/download/Master_Board.png)
