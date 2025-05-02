@@ -16,6 +16,7 @@ authors:
 #**Smart Quotation Deposit Payment Using Trello**
 
 Smart quotation scenario using [Make.com](http://Make.com "‌") to send a AI generated quotation with Stripe checkout for deposit payment via Trello automation
+![Make\_-\_Quotation\_and\_Deposit\_Collection.png](https://trello.com/1/cards/68141a2d40955fa4d70b7274/attachments/68141e350ee4b90b97120825/download/Make_-_Quotation_and_Deposit_Collection.png)
 <!-- more -->
 This was created for cleaning company in the USA. They wanted to build more intelligence into their current customer intake process on Launcher27. The areas for improvement included:
 
@@ -24,7 +25,6 @@ This was created for cleaning company in the USA. They wanted to build more inte
 - Collect deposit payment
 - Integrate with their CRM and HouseCall Pro
 
-![Make\_-\_Quotation\_and\_Deposit\_Collection.png](https://trello.com/1/cards/68141a2d40955fa4d70b7274/attachments/68141e350ee4b90b97120825/download/Make_-_Quotation_and_Deposit_Collection.png)
 
 The above is the basic construction of the [Make.com](http://Make.com "‌") scenario to accept data from a form to generate the quotation. This included the calculation using ChatGPT Assistant to create a quotation card in Trello and also to send the quotation. Besides, the generated text, the quotation included a deposit payment checkout link. The Assistant uses ChatGPT file search and code interpreter to calculate the price as well as the deposit to be collected.
 
