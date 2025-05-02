@@ -37,7 +37,7 @@ This included:
 - Use of **Days to complete** to set the due dates for either a Stage or Sprint card
 - **Spin off card** - to create additional sprint cards using an sprint card as a template and link this to to corresponding Stage card
 
-\###Selective use of Power Up
+###Selective use of Power Up
 
 - Dashcard - given a well thought out board design, the use of the Trello power up because a very useful tool for tracking and monitoring of work across multiple boards
 - Contact management and communication - there are many power ups that will provide the ability to send email to client. This selected Power Up has more capabilities include intake forms, smart links, email automation, …etc
