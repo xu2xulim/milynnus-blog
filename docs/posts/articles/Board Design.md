@@ -15,7 +15,7 @@ authors:
 #Board Design featuring curated set of capabilities
 
 This board design features a set of curated capabilities drawn from work with clients.
-
+![Master\_Board.png](https://trello.com/1/cards/681429bc6ba7eefddd7f2ed9/attachments/6814778a2890e851226ffdb3/download/Master_Board.png)
 <!-- more -->
 
 The overall board design and card relationships is built around a hierarchical structure. In this design, for purpose of demo, is based on the hierarchical structure - **Epic-Stage-Sprint**.
