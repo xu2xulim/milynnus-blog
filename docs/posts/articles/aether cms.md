@@ -5,8 +5,9 @@ subtitle: Streamlining Real Estate Sales with Trello Automation
 slug: using-trello-to-run-my-real-estate-business
 status: published
 author: Sunny Lim
-date: "2025-06-12T07:55:44.059Z"
-updatedAt: "2025-06-12T08:13:15.051Z"
+date: 
+    created: 2025-06-12T07:55:44.059Z
+    updated: 2025-06-12T08:13:15.051Z
 seoDescription: ""
 publishDate: "2025-06-12T15:50"
 excerpt: Streamlining Real Estate Sales with Trello Automation
