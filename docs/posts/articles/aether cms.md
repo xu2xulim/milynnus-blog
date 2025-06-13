@@ -1,6 +1,6 @@
 ---
 id: "1749714944058"
-title: Using Trello to run my real estate business
+title: Using Trello to run my real estate business (Aether-CMS)
 subtitle: Streamlining Real Estate Sales with Trello Automation
 slug: using-trello-to-run-my-real-estate-business
 status: published
@@ -20,7 +20,7 @@ featuredImage:
 ---
 
 ![MH_Selling_Board.png](https://trello.com/1/cards/67b32022b05a0aebb9e6436d/attachments/67b33a5eed8cfa995ce8b2b4/download/MH_Selling_Board.png)
-
+<!-- more -->
 Sam (not his real name) runs a successful real estate business with his team of business partners. He started using Trello to manage their buying and selling clients from a single board, creating new listing cards from templates. Each template includes 32-63 checklist items across 9-12 sales stages for both the Buying and Selling sides of his business. Each stage is represented by a Trello card checklist, with guidance materials in Google Drive and 12 instructional videos for his business partners to reference throughout the process. 
 
 Despite having everything meticulously planned, Sam's main frustration is that he spends more time each day figuring out the statuses and making changes on the Trello board than on actual sales.
