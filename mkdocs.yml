@@ -1,10 +1,12 @@
-site_name: milynnus Consulting Blog
+site_name: milynnus Blog
 site_description: A blog site built with Materials for Mkdocs
-site_url: https://sitename.example
+site_url: https://xu2xulim.github.io/milynnus-blog/
 theme:
   name: material
   features:
-    - navigation.footerç
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
   custom_dir: overrides
   palette: 
 
@@ -25,21 +27,26 @@ plugins:
   - search
   - blog:
       blog_dir: .
-      archive_date_format: MM yyyy
+      blog_toc: true
+      post_excerpt_separator: <!-- more -->
+      archive_date_format: yyyy
+      archive_url_format: "archive/{date}"
       post_url_format: "{categories}/{slug}"
       post_url_max_categories: 2
       categories_allowed:
-        - Life
         - Articles
         - Documentation
+
   - tags:
+      tags_file: tags.md
 
   - rss:
-      match_path: "/posts/.*"
-      pretty_print: true
+      match_path: posts/.* 
       date_from_meta:
-        as_creation: date.created
-        as_update: date.updated
+        as_creation: date
+      categories:
+        - categories
+        - tags
 
   - git-committers:
       repository: xu2xulim/milynnus-blog
@@ -47,8 +54,35 @@ plugins:
 
 extra:
   social:
-    - icon: fontawesome/brands/mastodon 
-      link: https://fosstodon.org/@squidfunk
+    - icon: simple/youtube
+      link: https://youtube.com/@earlymorningsun
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/sunny-lim-95406988/
+
+copyright: Copyright &copy; 2024 Sunny Lim
 
 
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
+
+  
