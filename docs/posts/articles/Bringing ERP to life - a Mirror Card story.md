@@ -3,7 +3,8 @@ date: 2025-02-14 08:00:00
 draft: false
 readtime: 5
 tags:
-    - project management
+    - pre-production
+    - manufacturing
     - trello
 published: true
 categories:
